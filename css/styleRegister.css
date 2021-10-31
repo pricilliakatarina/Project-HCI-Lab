@@ -1,0 +1,391 @@
+body{
+
+    margin: 0;
+    font-family: fantasy;
+    color: #6e0606;
+
+}
+
+.subHeader{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    background-color: #ffffff;
+
+}
+
+.logo{
+
+    margin-right: 10px;
+
+}
+
+.logo img{
+
+    height: 195px;
+    width: 253px;
+
+}
+
+
+/* Drop down menu */
+
+.navigation{
+
+    display: flex;
+    padding-top: 2%;
+    margin-right: 10%;
+
+}
+
+.arrow{
+
+    border: solid #6e0606;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+
+}
+
+.drop{
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+}
+
+
+/* Guide navigation */
+
+.guidePage{
+    
+    font-size: 40px;
+    font-weight: bold;
+    width: 20vw;
+    height: 10vh;
+    margin-right: 5%;
+    
+}
+
+.guidePage ul{
+
+    display: flex;
+    text-align: center;
+    width: 100%;
+
+}
+
+.guidePage ul li{
+    
+    position: relative;
+    list-style: none;
+    background-color: #f0f0f0;
+    flex: auto;
+
+}
+
+.guidePage ul li a{
+    
+    display: block;
+    text-decoration: none;
+    color: #6e0606;
+    padding: 15px 5px;
+
+}
+
+.guidePage ul li:hover{
+
+    background-color: #34343465;
+
+}
+
+.guidePage ul li ul{
+
+    display: none;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    width: auto;
+
+}
+
+.guidePage ul li:hover ul{
+
+    display: block;
+    background-color: #ffffff60;
+
+}
+
+.guidePage ul li ul li:hover{
+
+    background-color: #34343465;
+    font-weight: bolder;
+
+}
+
+
+/* Account */
+
+.accountPage{
+    
+    font-size: 40px;
+    font-weight: bold;
+    width: 20vw;
+    height: 10vh;
+    
+}
+
+.accountPage ul{
+
+    display: flex;
+    text-align: center;
+    width: 100%;
+
+}
+
+.accountPage ul li{
+    
+    position: relative;
+    list-style: none;
+    background-color: #f0f0f0;
+    flex: auto;
+
+}
+
+.accountPage ul li a{
+    
+    display: block;
+    text-decoration: none;
+    color: #6e0606;
+    padding: 15px 5px;
+
+}
+
+.accountPage ul li:hover{
+
+    background-color: #34343465;
+
+}
+
+.accountPage ul li ul{
+
+    display: none;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    width: auto;
+
+}
+
+.accountPage ul li:hover ul{
+
+    display: block;
+    background-color: #ffffff60;
+
+}
+
+.accountPage ul li ul li:hover{
+
+    background-color: #34343465;
+    font-weight: bolder;
+
+}
+
+/* Content */
+
+.content{
+
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding-bottom: 15%;
+    align-items: center;
+
+}
+
+.titleRegis{
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.regis{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.regis form {
+
+    width: 50vw;
+    height: 900px;;
+    border-radius: 15px;
+    border: 3px solid #6e0606;
+    padding-left: 15%;
+    font-size: 30px;
+    align-items: center;
+
+
+}
+
+.regis input{
+
+    font-size: 20px;
+    width: 50%;
+    height: 5%;
+
+}
+
+.regis select{
+
+    font-size: 20px;
+    width: 50%;
+    height: 5%;
+
+}
+
+#agree{
+
+    margin-right: 20px;
+    width: 5%;
+
+}
+
+#agree input{
+
+    margin-right: 15px;
+    width: 5%;
+
+}
+
+.regis button{
+
+    background-color: white;
+    color: #6e0606;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    width: 220px;
+    /* margin-bottom: 5%; */
+    font-family: fantasy;
+    font-weight: 500;
+    justify-content: center;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+
+    display: flex;
+    background-color: #343434;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.footer h1{
+
+    color: white;
+    font-weight: 100;
+    margin-top: 75px;
+    font-size: 40px;
+
+}
+
+.sosmed img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 15px;
+    width: 75px;
+    height: 60px;
+
+}
+
+@media only screen and (max-width:800px){
+    
+    .regis form{
+        width: 100%;
+        font-size: 20px;
+        height: 700px;;
+    }
+
+
+    .subHeader{
+        padding-left: 10px;
+    }
+
+    .logo img{
+
+        height: 155px;
+        width: 213px;
+    
+    }
+
+    .footer h1{
+        font-size: 20px;
+    }
+
+    .sosmed img{
+        padding: 5px;
+        width: 55px;
+        height: 40px;
+    
+    }
+
+    .guidePage{
+        
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        width: 20vw;
+        height: 10vh;
+        margin-right: 5%;
+        
+    }
+
+    .guidePage ul li a{
+    
+        display: block;
+        text-decoration: none;
+        color: #6e0606;
+        padding: 12px 2px;
+    
+    }
+
+    .accountPage{
+        
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        width: 20vw;
+        height: 10vh;
+        margin-right: 5%;
+        
+    }
+
+    .accountPage ul li a{
+    
+        display: block;
+        text-decoration: none;
+        color: #6e0606;
+        padding: 12px 2px;
+    
+    }
+
+    .titleRegis{
+    
+        font-size: 25px;
+    
+    }
+
+}

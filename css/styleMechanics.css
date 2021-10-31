@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.gambar {
+    width: 700px;
+    height: 375px;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: #6e0606;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.quicklink {
+    font-family: fantasy;
+    color: #6e0606;
+    display: flex;
+    justify-content: center;
+}
+
+.quicklink a{
+    color: #6e0606;
+    font-weight: bold;
+}
+
+.guide {
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: fantasy;
+    color: #6e0606;
+}
+
+#cover1 {
+    background-image: url(../assets/Mechanic/back.png);
+    background-size: contain;
+    opacity: 83%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 375px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+#cover1:hover {
+    background-image: url(../assets/Mechanic/cover.jpg);
+    background-size: contain;
+    transition: 1.5s;
+    width: 700px;
+    height: 375px;
+    align-items: center;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+}
+
+@media only screen and (max-width:800px){
+  
+
+    .gambar {
+        width: 7500px;
+        height: 175px;
+        align-items: center;
+        padding: 10px;
+    }
+    
+
+    .guide {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #cover1 {
+  
+        width: 500px;
+        height: 175px;
+        align-items: center;
+        padding: 10px;
+        margin-left: 150px;
+    }
+    
+    #cover1:hover {
+
+        width: 500px;
+        height: 175px;
+        margin-left: 150px;
+    }
+}

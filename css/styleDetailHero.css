@@ -1,0 +1,259 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.title {
+    font-family: fantasy;
+    font-size: 30px;
+    color: #6e0606;
+    padding: 5%;
+}
+
+.title h3{
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.containerhero {
+    font-family: fantasy;
+}
+
+.ability {
+
+    display: flex;
+    justify-content: space-between;
+    font-family: fantasy;
+    text-align: justify;
+}
+
+.ability nav{
+    padding: 4%;
+    color: #6e0606;
+    font-weight: lighter;
+}
+
+.containerhero .gambar .pict1 {
+    height: 400px;
+    width: 400px;
+}
+
+.containerhero .ability .skill {
+    height: 75px;
+    width: 75px;
+}
+
+#image3 {
+    padding-right: 500px;
+    background-image: url(../assets/Hero/AM/antimage\ \(1\).png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image3:hover {
+    background-image: url(../assets/Hero/AM/AM_looks2-removebg-preview.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image1 {
+    background-image: url(../assets/Hero/BM/brewmaster1.png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image1:hover {
+    background-image: url(../assets/Hero/BM/Looks_2-removebg-preview.png);
+    transition: 1.5s;
+    height: 300px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image2 {
+    background-image: url(../assets/Hero/BB/bristleback\ \(1\).png);
+    opacity: 83%;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image2:hover {
+    background-image: url(../assets/Hero/BB/bristleback_looks_2.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image4 {
+    background-image: url(../assets/Hero/EShaker/earthshaker\ \(1\).png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image4:hover {
+    background-image: url(../assets/Hero/EShaker/ESLooks2.jpg);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image5 {
+    background-image: url(../assets/Hero/ES/ember_spirit\ \(1\).png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image5:hover {
+    background-image: url(../assets/Hero/ES/ES_Looks_2.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image6 {
+    background-image: url(../assets/Hero/Juggernaut/Juggernaut_Look1.png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image6:hover {
+    background-image: url(../assets/Hero/Juggernaut/Juggernaut_Look_2-removebg-preview.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image7 {
+    background-image: url(../assets/Hero/KOTL/keeper_of_the_light\ \(1\).png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image7:hover {
+    background-image: url(../assets/Hero/KOTL/Base_keeper-removebg-preview.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image8 {
+    background-image: url(../assets/Hero/MK/MK_Look1.png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image8:hover {
+    background-image: url(../assets/Hero/MK/MK_Look2-removebg-preview.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image9 {
+    background-image: url(../assets/Hero/PA/phantom_assassin.png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+
+}
+
+#image9:hover {
+    background-image: url(../assets/Hero/PA/looks2-removebg-preview.png);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+#image10 {
+    background-image: url(../assets/Hero/Pudge/pudge\ \(1\).png);
+    opacity: 83%;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+    padding-bottom: 500px;
+}
+
+#image10:hover {
+    background-image: url(../assets/Hero/Pudge/PudgeLooks2.jpg);
+    transition: 1.5s;
+    height: 700px;
+    width: 100%;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    padding-right: 600px;
+}
+
+
+@media only screen and (max-width:800px) {
+    .title {
+        font-size: 14px;
+    }
+}

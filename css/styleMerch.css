@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+}
+
+.about {
+    margin-top: 5%;
+    background-image:url(../assets/Merch/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+
+
+#text-1{
+    color:  #6e0606;
+    font-family: fantasy;
+    text-align: center;
+    justify-content: center;
+    padding: 200px; 
+}
+
+.contentMerch{
+    background-color: #f0f0f0;
+    padding-bottom: 5%;
+}
+
+.content-title{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 45px;
+    color: #6e0606;
+    font-family: fantasy;
+}
+
+.component-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content:center;
+    color: #6e0606;
+}
+
+.component{
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    justify-content:center;
+    padding-right: 1%;
+ 
+}
+
+.categories{
+    margin-top: 3%;
+    text-align:center;
+    font-size: 20px;
+    color: #6e0606;
+    font-family: fantasy;
+
+}
+
+.categories h3::after
+{
+    content: '';
+    background: #6e0606;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.component-container button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color:  #6e0606;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: fantasy;
+  }
+  
+.component-container button:hover {
+    opacity: 0.7;
+  }
+  
+.picture img{
+    width: 200px;
+}
+
+.kind{
+    text-align: center;
+    color: grey;
+    font-family: fantasy;
+}
+   
+
+.desc-lower{
+    text-align: center;
+    color:  #6e0606;
+    font-family: fantasy;
+}
+
+#image1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+
+#image2{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image2:hover{
+    transition: 0.5s;
+    background-image: url(../assets/Merch/af-2-hover.png);
+}
+
+
+#image3{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image4{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-4.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image5{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-5.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image6{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-6.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image7{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/af-7.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image7:hover{
+    transition: 0.5s;
+    background-image: url(../assets/Merch/af-7-hover.png);
+}
+
+#image8{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/t-shirt-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+
+#image9{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/t-shirt-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+
+#image10{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/t-shirt-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image11{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/hoodie-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image12{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/hoodie-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image12:hover{
+    transition: 0.5s;
+    background-image: url(../assets/Merch/hoodie-2-hoever.png);
+    background-repeat: no-repeat;
+}
+
+#image13{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/pillow-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image14{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/pillow-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image15{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/pillow-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image16{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/mug-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+
+#image17{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/mug-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image17:hover{
+    transition: 0.5s;
+    background-image: url(../assets/Merch/mug-2-hover.png);
+}
+
+#image18{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/mug-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image19{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/bag-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image20{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/bag-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image21{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/bag-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+#image22{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/bag-4.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image23{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/hat-1.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image24{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/hat-2.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+#image24:hover{
+    transition: 0.5s;
+    background-image: url(../assets/Merch/hat-2-hover.png);
+}
+
+#image25{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/Merch/hat-3.png);
+    transition: 0.5s;
+    background-size: 100%;
+
+}
+
+
+.title-lower{
+    text-align: center;
+}
+
+.title-lower-desc{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:800px){
+  
+.content-title{
+
+    font-size: 25px;
+}
+
+.about h1{
+    padding-top: 15%;
+    font-size: 17px;
+}
+}
